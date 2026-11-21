@@ -1,0 +1,55 @@
+# Credentials and local environment (configuration is read from the host).
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+.aws/
+.ssh/
+contact.local.php
+
+# Local tools, editor settings, and OS metadata.
+.codex/
+.agents/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+
+# Dependencies and caches (none are needed to run this portfolio).
+node_modules/
+vendor/
+.venv/
+venv/
+__pycache__/
+.cache/
+.pytest_cache/
+
+# Runtime output, local QA output, backups, archives, and database dumps.
+*.log
+error_log
+logs/
+tmp/
+.qa/
+coverage/
+test-results/
+playwright-report/
+*.tmp
+*.bak
+*.old
+*~
+*.zip
+*.tar
+*.gz
+*.7z
+*.sql
+*.sqlite
+*.sqlite3
+*.db
